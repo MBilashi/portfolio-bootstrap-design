@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+  <body>
+   <!-- Start Navbar Section  -->
+
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Service
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Web Design</a></li>
+                  <li><a class="dropdown-item" href="#">WordPress</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!-- End Nav Bar Section  -->
+
+<!-- Start Hero Section  -->
+<div class="container">
+    <div id="carouselExampleCaptions" class="carousel slide text-dark" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./image/slide_01.jpg" class="d-block w-100 height_slide" alt="Frist_image">
+            <div class="carousel-caption d-none d-md-block bg-dark car_opacity">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./image/slide_02.jpg" class="d-block w-100 height_slide" alt="Second_Image">
+            <div class="carousel-caption d-none d-md-block bg-dark car_opacity">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./image/slide_03.jpg" class="d-block w-100 height_slide" alt="Third_Image">
+            <div class="carousel-caption d-none d-md-block bg-dark car_opacity">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./image/slide_04.png" class="d-block w-100 height_slide" alt="fourth_Image">
+            <div class="carousel-caption d-none d-md-block bg-dark car_opacity">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+            </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<!-- End Hero Section  -->
+
+<!-- start about section  -->
+<div class="coantainer-lg bg-light">
+    <div class="container">
+        <div class="about p-4">
+            <h2>About US</h2>
+        </div>
+        <div class="row pb-5">
+            <div class="col-sm-8">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">About Details</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam deleniti dignissimos laboriosam omnis temporibus animi repudiandae illum, nam nostrum sed in iste eius consequatur fuga ipsa libero blanditiis cupiditate aliquam minus tempore, alias aliquid. Reprehenderit quae laudantium dignissimos nulla voluptatibus, totam fuga eos exercitationem minima corrupti placeat expedita quaerat libero ratione mollitia, ex aperiam, similique dicta odit nemo officiis impedit in! Quaerat deleniti similique dicta deserunt magni excepturi voluptas maiores est magnam ipsam officia suscipit quo animi, nisi, quas architecto. Nulla reprehenderit qui voluptates velit corrupti! Est nam quidem, aliquid nobis incidunt placeat! Facilis nobis ducimus quod, accusamus soluta dolorem..</p>
+                    <a href="#" class="btn btn-primary">More Info.</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card a_h">
+                    <div class="card-body about_contact">
+                        <div class="about_con">
+                            <div class="icon">
+                                <i class="fa-solid fa-square-phone"></i>
+                            </div>
+                            <div class="icon_text">
+                                <p>+880-000-0000000 </p>
+                                <p>+880-254-252525</p>
+                            </div>
+                        </div>
+                        <div class="about_con">
+                            <div class="icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="icon_text">
+                                <p>Example@gmail.com </p>
+                                <p>support@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="about_con">
+                            <div class="icon">
+                                <i class="fa-solid fa-globe"></i>
+                            </div>
+                            <div class="icon_text">
+                                <p>www.mbilshi.com</p>
+                                <p>mbilashi-portfolio.com</p>
+                            </div>
+                        </div>
+                        <div class="about_con">
+                            <div class="icon">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </div>
+                            <div class="icon_text">
+                                <p><a href="facebook.com/bilahsimoni ">Bilashi Moni</a></p>
+                            </div>
+                        </div>
+                        <div class="about_con">
+                            <div class="icon">
+                                <i class="fa-brands fa-youtube"></i>
+                            </div>
+                            <div class="icon_text">
+                                <p><a href="https://www.youtube.com/channel/UCUevlh-p8Ivh8taEnRRCd0Q"> My YouTube Channel</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End about section  -->
+<!-- Start service section  -->
+<div class="coantainer-lg">
+    <div class="container">
+        <div class="about p-4">
+            <h2>Our Service</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 pb-5">
+            <div class="col">
+              <div class="card">
+                <div class="card_icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Web Design</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">If you want choose this service, Please contact with us</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card_icon">
+                    <i class="fa-solid fa-bullhorn"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Digital Marketing</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">If you want choose this service, Please contact with us</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card_icon">
+                    <i class="fa-brands fa-wordpress"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">WordPress Customaization</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">If you want choose this service, Please contact with us</small>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</div>
+<!-- End service section  -->
+
+<!-- start Portfolio section  -->
+<div class="coantainer-lg bg-light">
+    <div class="container pb-5">
+        <div class="about p-4">
+            <h2>Portfolio</h2>
+        </div>
+        <div class="portfolio_card">
+            <div class="card-group">
+                <div class="card">
+                  <img src="./image/headphone.PNG" class="card-img-top" alt="headphone_image">
+                  <div class="card-body">
+                    <h5 class="card-title">Headphone E-commerce</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button type="button" class="btn btn-outline-primary"><a href="">Full View</a></button>
+                  </div>
+                </div>  
+            </div>
+            <div class="card-group">
+                <div class="card">
+                  <img src="./image/Nike react.PNG" class="card-img-top" alt="nike_image">
+                  <div class="card-body">
+                    <h5 class="card-title">Nike React E-commerce</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button type="button" class="btn btn-outline-primary"><a href="">Full View</a></button>
+                  </div>
+                </div>  
+            </div>
+            <div class="card-group">
+                <div class="card">
+                  <img src="./image/simple_landing_page.PNG" class="card-img-top" alt="headphone_image">
+                  <div class="card-body">
+                    <h5 class="card-title">Simple Landing Page</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button type="button" class="btn btn-outline-primary"><a href="">Full View</a></button>
+                  </div>
+                </div>  
+            </div>
+        </div>
+        <div class="portfolio_card">
+            <div class="card-group">
+                <div class="card">
+                  <img src="./image/ramadan_celender.PNG" class="card-img-top" alt="ramadan_image">
+                  <div class="card-body">
+                    <h5 class="card-title">Ramadan Celender</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button type="button" class="btn btn-outline-primary"><a href="">Full View</a></button>
+                  </div>
+                </div>  
+            </div>
+            <div class="card-group">
+                <div class="card">
+                  <img src="./image/psd to html classicclean.PNG" class="card-img-top" alt="psd _to_psd_image">
+                  <div class="card-body">
+                    <h5 class="card-title">PSD to HTMl</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button type="button" class="btn btn-outline-primary"><a href="">Full View</a></button>
+                  </div>
+                </div>  
+            </div>
+            <div class="card-group">
+                <div class="card">
+                  <img src="./image/e_school.PNG" class="card-img-top" alt="e-school_image">
+                  <div class="card-body">
+                    <h5 class="card-title">E-School Website</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <button type="button" class="btn btn-outline-primary"><a href="">Full View</a></button>
+                  </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Portfolio Section  -->
+
+<!-- Start Contact Section  -->
+<div class="coantainer-lg">
+    <div class="container container-contact">
+        <div class="about p-4">
+            <h2>Our Contact Form</h2>
+        </div>
+        <div class="form pb-5">
+            <form>
+                <div class="row mb-3">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Full Name</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputEmail3">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3">
+                  </div>
+                </div>
+                <!-- <div class="row mb-3">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label"></label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3">
+                  </div>
+                </div> -->
+                <fieldset class="row mb-3">
+                  <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                      <label class="form-check-label" for="gridRadios1">
+                        Male
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                      <label class="form-check-label" for="gridRadios2">
+                        Female
+                      </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                          Custom
+                        </label>
+                      </div>
+                  </div>
+                </fieldset>
+                <div class="row mb-3">
+                    <textarea rows="5" placeholder="Enter Your text here"></textarea>  
+                  </div>
+                <!-- <div class="row mb-3">
+                  <div class="col-sm-10 offset-sm-2">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1">
+                      <label class="form-check-label" for="gridCheck1">
+                        Example checkbox
+                      </label>
+                    </div>
+                  </div>
+                </div> -->
+                <button type="submit" class="btn btn-primary sign_in">Submit</button>
+              </form>
+        </div>
+    </div>
+</div>
+<!-- End Contact Section  -->
+
+<!-- Start footer section  -->
+<div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top container">
+    <p>&copy; 2022 Coder's Bilashi, All rights reserved @Monia Bilashi.</p>
+    <ul class="list-unstyled d-flex">
+      <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-square-facebook"></i></a></li> 
+      <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-square-twitter"></i></a></li> 
+      <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-linkedin"></i></a></li> 
+      <li class="ms-3"><a class="link-dark" href="#"><i class="fa-solid fa-envelope"></i></a></li> 
+    </ul>
+  </div>
+<!-- End footer section  -->
+
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+.car_opacity{
+    opacity:.7 ;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+}
+.height_slide{
+    height: 420px;
+}
+.a_h{
+    height: 320px;
+}
+.about{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.about_contact{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 10px;
+}
+.about_con{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 30px;
+}
+.icon i{
+    font-size: 30px;
+}
+.icon_text p{
+    padding: 0;
+    margin: 0;
+}
+.card_icon{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0px ;
+}
+.card_icon i {
+    font-size: 40px;
+    color: tomato;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn a:hover{
+    color: white;
+}
+.portfolio_card{
+    display: flex;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+    margin-bottom: 20px;
+}
+.form{
+    width: 60%;
+    margin: auto;
+}
+.container-contact{
+    background: linear-gradient(to top right,lightblue,blue,pink,hotpink);
+    width: 100%;
+    /* height: 80vh; */
+}
+.form{
+    z-index: 2;
+    color: white;
+}
